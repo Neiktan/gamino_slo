@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #EDC7B7;
+}
+
+li{
+    list-style: none;
+}
+
+:root{
+    --table-color: black;
+}
+
+/*header*/
+nav{
+    background-color: #BAB2B5;
+    color: white;
+    border: outset;
+    display: flex;
+    justify-content: center;
+}
+
+.list-header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-header ul li{
+    margin: 0 10px;
+}
+
+.list-header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.list-header ul li a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+/*body-index*/
+
+.info-me{ 
+    display: flex; /*grid??*/
+    flex-direction: column;
+    align-items: center;
+}
+
+section article p span{
+    color: red;
+    font-size: xx-large;
+    font-family: Impact;
+}
+
+section article img{
+    width: 290px;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2{
+    text-align: center;
+}
+
+.list-gender{
+    border: dashed red;
+    border-radius: 9%;
+}
+
+
+/*body-hobbys*/
+
+.table-games{
+    border: 2px solid var(--table-color);
+    margin: 0px 130px;
+    text-align: center;
+}
+
+.table-title{
+    background-color: aqua;
+}
+
+.japan{
+    display: flex;
+    flex-direction: row;
+}
+
+.japan div img{
+    width: 200px;
+    height: 120px;
+}
+
+.table-japan{
+    border: 2px solid var(--table-color);
+    margin: 10px;
+    text-align: center;
+}
+
+.table-japan tr:nth-child(even){
+    background-color: red;
+}
+
+
+/*body-knowledge*/
+
+.certificate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.certificate div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.certificate-photo{
+    width: 450px;
+    height: 300px;
+}
+
+section article dl dt a{
+    text-decoration: none;
+}
+
+/*Footer*/
+footer{
+    border-top: solid rgb(0, 0, 0);
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img-whats{
+    width: 28px;
+    height: 28px;
+}
+
+footer div div ul li a{
+    text-decoration: none;
+}
