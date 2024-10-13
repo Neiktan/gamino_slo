@@ -69,6 +69,7 @@ section article img{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
 h2{
@@ -80,6 +81,22 @@ h2{
     border-radius: 9%;
 }
 
+.list-artist{
+    border: 2px dotted blue;
+    border-radius: 9%;
+}
+
+.fix-aside{
+    display: flex;
+    flex-direction: row;
+}
+
+.food{
+    width: 200px;
+    margin-left: 40px;
+}
+
+/*se podria arreglar con margin o padding sino gid*/
 
 /*body-hobbys*/
 
@@ -91,6 +108,10 @@ h2{
 
 .table-title{
     background-color: aqua;
+}
+
+.line{
+    border-top: 1px solid var(--table-color);
 }
 
 .japan{
@@ -148,7 +169,7 @@ footer{
     justify-content: space-evenly;
 }
 
-.img-whats{
+.img-icon{
     width: 28px;
     height: 28px;
 }
