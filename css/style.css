@@ -96,8 +96,6 @@ h2{
     margin-left: 40px;
 }
 
-/*se podria arreglar con margin o padding sino gid*/
-
 /*body-hobbys*/
 
 .table-games{
@@ -156,6 +154,16 @@ h2{
 
 section article dl dt a{
     text-decoration: none;
+}
+
+.fondo{
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fondo dt a{
+    color: white;
 }
 
 /*Footer*/
