@@ -76,65 +76,6 @@ h2{
     text-align: center;
 }
 
-.list-gender{
-    border: dashed red;
-    border-radius: 9%;
-}
-
-.list-artist{
-    border: 2px dotted blue;
-    border-radius: 9%;
-}
-
-.fix-aside{
-    display: flex;
-    flex-direction: row;
-}
-
-.food{
-    width: 200px;
-    margin-left: 40px;
-}
-
-/*body-hobbys*/
-
-.table-games{
-    border: 2px solid var(--table-color);
-    margin: 0px 130px;
-    text-align: center;
-}
-
-.table-title{
-    background-color: aqua;
-}
-
-.line{
-    border-top: 1px solid var(--table-color);
-}
-
-.japan{
-    display: flex;
-    flex-direction: row;
-}
-
-.japan div img{
-    width: 200px;
-    height: 120px;
-}
-
-.table-japan{
-    border: 2px solid var(--table-color);
-    margin: 10px;
-    text-align: center;
-}
-
-.table-japan tr:nth-child(even){
-    background-color: red;
-}
-
-
-/*body-knowledge*/
-
 .certificate{
     display: flex;
     flex-direction: row;
@@ -164,6 +105,72 @@ section article dl dt a{
 
 .fondo dt a{
     color: white;
+}
+
+/*body-hobbys*/
+
+.table-games{
+    border: 2px solid var(--table-color);
+    margin: 0px 130px;
+    text-align: center;
+}
+
+.table-title{
+    background-color: aqua;
+}
+
+.line{
+    border-top: 1px solid var(--table-color);
+}
+
+.list-food{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.food{
+    width: 200px;
+    margin-left: 40px;
+}
+
+.list-gender{
+    border: dashed red;
+    border-radius: 9%;
+}
+
+.list-artist{
+    border: 2px dotted blue;
+    border-radius: 9%;
+}
+
+/*body-japan*/
+
+.japan{
+    display: flex;
+    flex-direction: row;
+}
+
+.japan div img{
+    width: 200px;
+    height: 120px;
+}
+
+.table-japan{
+    border: 2px solid var(--table-color);
+    margin: 10px;
+    text-align: center;
+}
+
+.table-japan tr:nth-child(even){
+    background-color: red;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 /*Footer*/
